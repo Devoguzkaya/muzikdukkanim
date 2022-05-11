@@ -1,0 +1,99 @@
+*{padding: 0%;
+margin: 0%;
+box-sizing: border-box;}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.ortala {
+  text-align: center;
+    font-size: 24px;
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+.bosluk {
+    width: 100%;
+    height: 30px;
+}
+
+.nav-bar{
+
+    text-align: center;
+}
+.nav-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+.nav-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.nav-bar ul li:hover{
+    background:#d4c991;
+    border-radius: 10px
+}
+.nav-bar .fas {
+margin-right: 8px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.nav-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 10px;
+}
+.nav-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+}
+.nav-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: rgb(62, 62, 62);
+    text-align: left;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.nav-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+.fa-caret-right {
+    font-size: 14px;
+    color: white;
+    float: right;
+}
+.sub-menu-2 {
+    display: none;
+  
+}
+.hover-me:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #000000;
+}
+
+article h1{
+text-align: center;
+color: blueviolet;
+}
+
+.ulorta {
+    list-style-position: inside;
+    text-align: center;
+}
